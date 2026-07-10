@@ -225,14 +225,10 @@ services:
         logo: "assets/icons/ServiceStatus.png"
         subtitle: ""
         tag: "pt.app"
-        url: "https://servicestatus.productivitytools.top" 
-        quick:
-            - name: "firebase"
-              url: "https://pt-servicestatus.web.app/"
-              icon: "fa-solid fa-arrow-up-right-from-square"
-              target: "_blank"   
-            - name: "ols-old"
-              url: "https://ptservicestatus-309299231472.us-central1.run.app/"
+        url: "https://service-status.productivitytools.top" 
+        quick:   
+            - name: "coud-run"
+              url: "https://pt-service-status-93484780890.us-central1.run.app"
               icon: "fa-solid fa-arrow-up-right-from-square"
               target: "_blank"       
       - name: "PDF Tools"
@@ -301,7 +297,7 @@ services:
         subtitle: ""
         tag: "app"
         keywords: "self hosted reddit"
-        url: "https://guacamole.productivitytools.top/"
+        url: "https://guacamole.productivitytools.top/guacamole/#/"
         target: "_blank" # optional html a tag target attribute
   - name: "Pages"
     icon: "fas fa-cloud"
