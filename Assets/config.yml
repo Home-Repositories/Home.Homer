@@ -131,6 +131,21 @@ services:
               url: "https://ptplacesprod.web.app/Login"
               icon: "fa-solid fa-arrow-up-right-from-square"
               target: "_blank"
+      - name: "Fitness"
+        logo: "assets/icons/Fitness.png"
+        subtitle: ""
+        tag: "pt.app"
+        url: "https://fitness.productivitytools.top/"  
+        quick:
+            - name: "firebase"
+              url: "https://pts-fitness.web.app/"
+              icon: "fa-solid fa-arrow-up-right-from-square"
+              target: "_blank"
+            - name: "ols-old"
+              url: "https://pts-fitness.web.app/"
+              icon: "fa-solid fa-arrow-up-right-from-square"
+              target: "_blank"
+
   - name: "Money"
     icon: "fas fa-cloud"
     items:
